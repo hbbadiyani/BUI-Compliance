@@ -1,0 +1,18 @@
+{
+    "en": {
+      "name": "check-box",
+      "description": "Check Box requirement",
+      "severity": "medium",
+      "impact": "The document title helps users to orient themselves within the site quickly without having to search for orientation information in the body of the page.",
+      "failureMessage": "Check Box is not BUI Compliant",
+      "fulfilmentMessage": "Check Box is BUI Compliant",
+      "assessments": [
+        {
+          "assessmentName": "has-proper-check-box",
+          "assessmentDescription": "Check Box requirement",
+          "detailMessage": "he DOM node is ${checkBox}",
+          "fixMessage": "The checkbox should have only one direct child with Label tag and that should have a Input tag as its only child node"
+        }
+      ]
+    }
+  }

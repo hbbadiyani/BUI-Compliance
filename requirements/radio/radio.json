@@ -1,0 +1,19 @@
+
+{
+    "en": {
+      "name": "radio",
+      "description": "Radio requirement",
+      "severity": "medium",
+      "impact": "The radio button must have a Label tag and Input tag.",
+      "failureMessage": "Radio button is not BUI Compliant",
+      "fulfilmentMessage": "Radio button is BUI Compliant",
+      "assessments": [
+        {
+          "assessmentName": "has-proper-radio",
+          "assessmentDescription": "Radio button requirement",
+          "detailMessage": "he DOM node is ${radio}",
+          "fixMessage": "The radio button should have only one direct child with Label tag and that should have a Input tag as its only child node"
+        }
+      ]
+    }
+  }

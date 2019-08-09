@@ -1,0 +1,18 @@
+{
+    "en": {
+      "name": "style-exists",
+      "description": "The inline style should not be present.",
+      "severity": "medium",
+      "impact": "The inline style should not be present.",
+      "failureMessage": "An inline style is present, which is not BUI Compliant",
+      "fulfilmentMessage": "An inline style should not be present, for BUI Compliance",
+      "assessments": [
+        {
+          "assessmentName": "has-style",
+          "assessmentDescription": "Inline style requirement",
+          "detailMessage": "The DOM node is ${styleTagName}",
+          "fixMessage": "The inline style should not be present."
+        }
+      ]
+    }
+  }

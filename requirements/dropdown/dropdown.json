@@ -1,0 +1,18 @@
+{
+    "en": {
+      "name": "dropdown",
+      "description": "Dropdown Requirement",
+      "severity": "medium",
+      "impact": "Dropdown should be proper",
+      "failureMessage": "An Dropdown is present which is not BUI Compliant",
+      "fulfilmentMessage": "An Dropdown is present which is BUI Compliant",
+      "assessments": [
+        {
+          "assessmentName": "dropdown",
+          "assessmentDescription": "Dropdown requirement",
+          "detailMessage": "The DOM node is ${dropdown}",
+          "fixMessage": "The dropdown should have a "
+        }
+      ]
+    }
+  }

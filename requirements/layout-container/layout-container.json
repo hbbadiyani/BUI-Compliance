@@ -1,0 +1,18 @@
+{
+    "en": {
+      "name": "layout-container",
+      "description": "layout-Container requirement",
+      "severity": "medium",
+      "impact": "The only child of a b-layout should be a b-container and vice-versa.",
+      "failureMessage": "Layout-Container arrangement is not BUI Compliant",
+      "fulfilmentMessage": "Layout-Container arrangement is BUI Compliant",
+      "assessments": [
+        {
+          "assessmentName": "has-proper-layout-container",
+          "assessmentDescription": "Layout-Container requirement",
+          "detailMessage": "The DOM node is ${layoutContainer}",
+          "fixMessage": "The checkbox should have only one direct child with Label tag and that should have a Input tag as its only child node"
+        }
+      ]
+    }
+  }
